@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet"  href="style.css">
+    <title>Contacter l'Afpa</title>
+</head>
+
+<body>
+
+<header>
+    <img src="Image/logoAfpa.png" alt="image representant le logo Afpa" title="Logo de l'Afpa" class="logoafpa">
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="Formation.html">La Formation</a></li>
+            <li><a href="Témoignages.html">Témoignages</a></li>
+            <li><a href="Références.html">Références</a></li>
+            <li class="pageref"><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h2 class="soustitre">Contact</h2>
+  
+
+    <div class="grillecontact">
+        <h3 class="soustitrecontact">Afin de pouvoir apporter une réponse de qualité aux requêtes adressées, veulliez renseigner les informations suivantes :</h3>
+        <fieldset>
+                <legend><h4>Information personnelle</h4></legend>
+                <p class="infoobl">* Information obligatoire</p>        
+                <form method="get" action="#">
+                    <p>
+                        <label>(*) Votre Nom :</label><input type="text" required="required" name='Nom'></p>
+                    <p>
+                        <label>(*) Addresse Mail :</label><input type="email" required="required" name='Email'></p>
+                    <p>
+                        <label>Votre téléphone :</label><input type="tel" required name='Telephone'></p>            
+                    <p>
+                        <label>Votre région :</label>
+                        <select name="Region" id="pays">
+                            <option value="Auvergne-Rhône-Alpes">Auvergne-Rhône-Alpes</option>
+                            <option value="Bourgogne-Franche-Comté">Bourgogne-Franche-Comté</option>
+                            <option value="Bretagne">Bretagne</option>
+                            <option value="Centre-Val de Loire">Centre-Val de Loire</option>
+                            <option value="Corse">Corse</option>
+                            <option value="Grand Est">Grand Est</option>
+                            <option value="Hauts-de-France">Hauts-de-France</option>
+                            <option value="Ile de France">Ile-de-France</option>
+                            <option value="Normandie">Normandie</option>
+                            <option value="Nouvelle-Aquitaine">Nouvelle-Aquitaine</option>
+                            <option value="Occitanie">Occitanie</option>
+                            <option value="Pays de la Loire">Pays de la Loire</option>
+                            <option value="Provence-Alpes-Côte d'Azur">Provence-Alpes-Côte d'Azur</option>
+                            <option value="Guadeloupe">Guadeloupe</option>
+                            <option value="Martinique">Martinique</option>
+                            <option value="Guyane">Guyane</option>
+                            <option value="La Réunion">La Réunion</option>
+                            <option value="Mayotte">Mayotte</option>
+                        </select>
+                    </p>
+                </form>
+        </fieldset>
+
+        <fieldset>
+                <legend><h4>Votre situation</h4></legend>
+                <form method="get" action="#">
+                    <p>
+                        <input type="radio" name="situation" value="" id="demandeur-emploi"> 
+                        <label class="cellule" for="demandeur-emploi">Demandeur d'emploi</label></p>
+                    <p>
+                        <input type="radio" name="situation" value="" id="Salarié"> 
+                        <label class="cellule" for="Salarié">Salarié en transition professionnelle</label></p>
+                    <p>
+                        <input type="radio" name="situation" value="" id="Autre"> 
+                        <label class="cellule" for="Autre">Autre</label></p>
+                </form>
+        </fieldset>
+        <fieldset>
+                <legend><h4>Vos modalités d'apprentissage privilégiées</h4></legend>
+                <form method="get" action="#">
+                    <p>
+                        <input type="radio" name="modalites" value="" id="En-centre"> 
+                        <label class="cellule" for="En-centre">En centre de formation (présentiel)</label></p>
+                    <p>
+                        <input type="radio" name="modalites" value="" id="Distance"> 
+                        <label class="cellule" for="Distance">100% à distance</label></p>
+                    <p>
+                        <input type="radio" name="modalites" value="" id="Alternance"> 
+                        <label class="cellule" for="Alternance">En contrat d'alternance avec l'entreprise</label></p>
+                    <p>
+                        <input type="radio" name="modalites" value="" id="sans-préférence"> 
+                        <label class="cellule" for="sans-préférence">Sans Préférence</label></p>
+                </form>
+        </fieldset>
+        <fieldset>
+                <legend><h4>Votre message</h4></legend>
+                <form method="get" action="#">
+                    <p>
+                        <label for="Message"></label>
+                        <textarea name="Messsage" id="Message"></textarea>
+                    </p>
+                </form>
+                <input type="submit" value="Envoyer">
+        </fieldset>
+    </div>
+</main>
+
+</body>
+</html>
