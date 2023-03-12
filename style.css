@@ -1,0 +1,359 @@
+/*Body*/
+
+body{
+    margin: 0%;
+    font-family: Arial;
+    background-image: url(Image/FOND.jpg);}
+
+/*Header*/
+
+.logoafpa{
+    width: 100px;
+    float:left;
+    position: absolute; 
+    top: 5px;; 
+    padding-left: 40px;}
+  
+/*Menu Navigation*/
+
+nav ul{
+    display: grid;
+    grid-template-columns:auto auto auto auto auto;
+    column-gap: 40px;
+    background-color: #7ec13e;
+    justify-content: end;
+    padding: 10px;}
+
+nav li{
+    display: inline;}
+
+nav li a {
+    text-decoration: none;
+    color: black;}
+
+.pageref{
+    font-weight:bold}
+
+/*Main*/   
+        
+.soustitre{
+    padding-left: 30px;
+    padding-top: 30px;
+    text-decoration: underline;}
+
+h3{ grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;}
+
+/*Page Accueil*/ 
+
+.grilleaccueil{
+    display:grid;
+    grid-template-columns: 900px 400px;
+    column-gap: 50px;
+    row-gap: 50px;
+    background-color: rgb(245, 245, 245);
+    justify-content:center;
+    padding: 50px; 
+    width: 1500px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;}
+
+.box1accueil{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;}
+
+.box2accueil{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 20px;
+    text-align: center;
+    background-image: url(Image/dev_web.jpg);
+    background-size: 1300px;}
+
+.box3accueil{
+    text-align: center;
+    padding-bottom: 50px;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    background-image: url(Image/bubble.jpg);
+    background-size: 500px;}
+
+.box4accueil{
+    grid-column-start:2;
+    text-align: center;
+    padding-bottom: 50px;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    background-image: url(Image/Envelloppe.jpg);
+    background-size: 500px;}
+
+.soustitreaccueil{
+    text-align: end;
+    padding-bottom: 40px;}
+
+.texteaccueil{
+    text-align:left;
+    padding-top:50px;
+    padding-bottom: 20px;
+    padding-left: 100px;}
+
+.texteaccueil2{
+    text-align:center;
+    padding-top:50px;
+    padding-bottom: 50px;}
+
+.texteaccueil3{
+    text-align:left;
+    padding-top:50px;
+    padding-bottom: 70px;
+    padding-left: 100px;}
+        
+.bouton1{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(219, 219, 219);
+    padding: 15px;
+    border: 1px solid black;}
+
+.bouton1:hover {
+    color: rgb(255, 252, 252);
+    background-color:  rgb(100, 100, 100);}
+
+h1{
+    text-align: left;
+    text-decoration: underline;}
+
+.soustitreaccueil2{
+    text-decoration: underline;
+    text-align:center}
+
+.bulleaccueil{
+    padding: 20px;
+    border: 1px solid rgb(184, 184, 184);
+    color: white;
+    background-color: #7a99ad;
+    border-radius: 50px;}
+
+/*Page Formation*/
+
+.grilleform{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    column-gap: 200px;
+    row-gap: 30px;
+    justify-content: center;
+    background-color:rgb(245, 245, 245);
+    padding: 50px;
+    width: 1500px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;}
+
+.colonneform{
+    background-color: white;
+    padding:10px;
+    border-right: 1px solid grey;
+    border-bottom:1px solid grey;}
+
+.infoform{
+    background-color: rgb(100, 100, 100);;
+    color: white;
+    grid-column-start: 1;
+    grid-column-end:3;
+    text-align: center;
+    padding: 10px;
+    margin: 0%;}
+
+/*Page Temoignage*/
+
+.grilletemoignage{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    column-gap: 120px;
+    justify-content: center;
+    background-color:rgb(245, 245, 245);
+    padding: 50px;
+    width: 1500px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;}
+
+.phototaille{
+    width: 90px;
+    height: 90px;
+    border: black 1px solid;}
+
+.colonnetemoignage{
+    background-color: white;
+    text-align: center;
+    padding-top: 5px ;
+    margin: 0%;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;}
+
+.temoignage{
+    text-align: left;
+    padding: 10px;}
+
+.identifiant{
+    background-color:  rgb(100, 100, 100);;
+    color: white;
+    text-align: left;
+    padding: 20px;
+    margin: 0%;}
+
+.box1temoin{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    padding-bottom: 50px;}
+
+/*Page Reference*/
+
+.grilleref{
+    display: grid;
+    justify-content: center;
+    grid-template-columns:150px 150px 150px 150px 150px;
+    column-gap: 100PX;
+    background-color:rgb(245, 245, 245);
+    width: 1500px;
+    padding: 50px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;}
+
+.logoref{
+    width: 80px; 
+    height: 92px;
+    padding: 50px;}
+
+.box1ref{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    padding-bottom: 30px;}
+    
+/*Page Contact*/
+
+.grillecontact{
+    background-color:rgb(245, 245, 245);
+    padding: 50px;
+    width: 1500px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;}
+
+fieldset{
+    background-color: white;
+    width: 1100px;
+    margin-right: auto;
+    margin-left: auto;}
+
+.infoobl{
+    text-align: right;margin: 0%;}
+
+label{
+    display: block;
+    width: 300px;
+    float: left;}
+    
+.cellule{
+    display:contents;}
+
+/*Responsive*/
+
+@media screen and (min-width: 280px) and (max-width: 1388px){
+
+
+.logoafpa{display: flex;
+    float:none;
+    position:inherit; 
+    top: 5px;; 
+    padding-left: 0px;
+    margin: auto;}
+
+nav ul{ 
+    display: flex;}
+
+.grilleaccueil{
+    display: flex;
+    flex-direction: column;
+    width:auto ;}
+
+.box3accueil{
+    background-repeat: no-repeat;
+    background-color: white;}
+
+.box4accueil{
+    background-repeat: no-repeat;
+    background-color: white;}
+
+.bulleaccueil{
+    display: flex;
+    text-align: center;}
+
+.texteaccueil{
+    padding-left: 0px;}
+
+.texteaccueil3{
+    padding-left: 0px;}
+
+.grilleform{
+    display: flex;
+    flex-direction: column;
+    width:auto ;}
+
+.grilletemoignage{
+    display: flex;
+    flex-direction: column;
+    width:auto ;}
+
+.grilleref{
+    align-content: stretch;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    width:auto ;}
+    
+.logoref{
+    margin: auto;}
+
+.grillecontact{ display: flex;
+    flex-direction: column;
+    width:auto;}
+
+fieldset{
+   width:  500px;}
+
+.infoobl{
+    text-align: left;}
+
+label{
+    display: contents;}
+
+}
+
+@media screen and (min-width: 280px) and (max-width: 740px){
+  
+  
+nav ul{
+   
+    flex-direction: column;}
+
+
+nav li{  
+    text-align: center;}
+
+fieldset{
+    width:  200px;}
+     
+
+}
